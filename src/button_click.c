@@ -152,6 +152,7 @@ static void deinit() {
 
 int main(void) {
   init();
+  radio_button_window_push();
   app_event_loop();
   deinit();
 }
